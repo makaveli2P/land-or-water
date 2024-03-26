@@ -12,8 +12,9 @@ I came across [this](https://github.com/vnglst/pong-wars?tab=readme-ov-file) coo
 6. The page background color will change dynamically based on which territory (land or water) is currently dominating.
 7. The game continues indefinitely until you decide to stop or refresh the page.
 
-<img src="https://github.com/makaveli2P/land-or-water/assets/54131539/08023c57-735b-4b09-9133-802a57040022" alt="gameplay" width="500" align="center">
-
+<div align = "center">
+  <img src="https://github.com/makaveli2P/land-or-water/assets/54131539/08023c57-735b-4b09-9133-802a57040022" alt="gameplay" width="600">
+</div>
 
 ## How to Customize
 
