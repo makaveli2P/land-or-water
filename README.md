@@ -24,6 +24,13 @@ You can easily customize various aspects of the game by modifying the JavaScript
 3. **Ball Speed**: Adjust the minimum and maximum ball speeds by modifying the `MIN_SPEED` and `MAX_SPEED` constants.
 4. **Ball Colors**: Change the colors of the land and water balls by modifying the `LAND_BALL_COLOR` and `WATER_BALL_COLOR` constants.
 
-## Almost got some maps!
-![Screenshot 2024-03-25 at 23 08 52](https://github.com/makaveli2P/land-or-water/assets/54131539/9ee5e542-a528-4ab0-b030-980d7999b44b)
-![Screenshot 2024-03-25 at 23 02 55](https://github.com/makaveli2P/land-or-water/assets/54131539/118519b0-44fc-4505-bab1-8aadd8234ece)
+## Some maps!
+<div align="center">
+  <div style="display: flex; justify-content: center; align-items: flex-start;">
+    <div style="margin-right: 20px;">
+      <img src="https://github.com/makaveli2P/land-or-water/assets/54131539/9ee5e542-a528-4ab0-b030-980d7999b44b" width="400" />
+      <img src="https://github.com/makaveli2P/land-or-water/assets/54131539/118519b0-44fc-4505-bab1-8aadd8234ece" width="400" />
+    </div>
+    <img src="https://github.com/makaveli2P/land-or-water/assets/54131539/697aa1a3-7870-42e5-a13b-00b00be15fcb" width="200" />
+  </div>
+</div>
