@@ -30,7 +30,8 @@ You can easily customize various aspects of the game by modifying the JavaScript
     <div style="margin-right: 20px;">
       <img src="https://github.com/makaveli2P/land-or-water/assets/54131539/9ee5e542-a528-4ab0-b030-980d7999b44b" width="400" />
       <img src="https://github.com/makaveli2P/land-or-water/assets/54131539/118519b0-44fc-4505-bab1-8aadd8234ece" width="400" />
-    </div>
+    </div>!
     <img src="https://github.com/makaveli2P/land-or-water/assets/54131539/697aa1a3-7870-42e5-a13b-00b00be15fcb" width="200" />
+    <img src="https://github.com/makaveli2P/land-or-water/assets/54131539/a45c6b88-d104-4ef9-a18c-b91cd5f24bc7" width="200" />
   </div>
 </div>
