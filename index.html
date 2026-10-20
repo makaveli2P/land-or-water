@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>my last two braincells</title>
     <style>
@@ -8,44 +9,47 @@
         height: 100%;
         margin: 0;
         padding: 0;
+      }
+
+      body {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        gap: 30px;
+        padding: 16px;
+        box-sizing: border-box;
+        background: linear-gradient(to bottom, #6f9fd6 0%, #8bc34a 100%);
       }
 
-      #container {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        width: 700px; /* Reduced from 900px */
-        height: 700px; /* Reduced from 900px */
+      #globe {
+        /* Always a square, and always fits the screen. */
+        width: min(700px, calc(100vw - 32px), calc(100svh - 120px));
+        aspect-ratio: 1;
+        flex-shrink: 0;
+        border-radius: 50%;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
       }
 
       canvas {
         display: block;
-        border-radius: 50%;
-        overflow: hidden;
         width: 100%;
         height: 100%;
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
       }
 
       #score {
         font-family: monospace;
-        margin-top: 30px;
         font-size: 16px;
-        padding-left: 20px;
         color: #172b36;
       }
     </style>
   </head>
 
   <body>
-    <div id="container">
-      <canvas id="pongCanvas" width="700" height="700"></canvas> <!-- Adjusted width and height -->
-      <div id="score"></div>
+    <div id="globe">
+      <canvas id="pongCanvas"></canvas>
     </div>
+    <div id="score"></div>
     <script src="main.js"></script>
   </body>
 </html>
